@@ -1,4 +1,4 @@
-// 入門、コメントやhello worldの下記方
+// 入門、コメントやhello worldの書き方
 
 /*
 コメントを
@@ -10,7 +10,7 @@ package main
 import "fmt"
 
 
-func main(){
+func main() {
     fmt.Println("hello world.")
     print("hello world.")
 
