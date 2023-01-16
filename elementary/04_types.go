@@ -30,4 +30,7 @@ func main(){
     c := "hoge"
     var d bool
     fmt.Printf("a: %d, b: %f, c: %s, d: %t\n", a, b, c, d)
+
+    var f float64
+    fmt.Printf("%f, %T", f, f)
 }
