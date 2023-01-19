@@ -17,6 +17,10 @@ func main() {
     fmt.Println(a)  // [0 0 3 0 10]
     fmt.Println(a[2])  // 3
 
+    // a[0] = "ra ra.."
+    // fmt.Println(a[0])
+    // ./10_arrangement.go:20:12: cannot use "ra ra.." (untyped string constant) as int value in assignment
+
     // 要素数が自明の時、宣言時の個数を省略できる
     b := [...]int{1, 3, 5}
     fmt.Println(b)  // [1 3 5]
