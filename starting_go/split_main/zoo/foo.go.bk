@@ -1,0 +1,12 @@
+// goは一つのディレクトリに一つのパッケージ定義のみというルールがあるため、
+// このファイルが存在したまま go build するとエラーになる
+
+/*[terminal]
+$ go run *.go
+found packages main (app.go) and foo (foo.go) in /Users/sekine345/Documents/learn/go_lang/starting_go/split_main/zoo
+$
+$ go build
+found packages main (app.go) and foo (foo.go) in /Users/sekine345/Documents/learn/go_lang/starting_go/split_main/zoo:wq
+*/
+
+package foo
