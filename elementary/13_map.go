@@ -13,7 +13,7 @@ import "fmt"
 func main() {
     // mapの定義
     /*
-    makkeで定義する
+    makeで定義する
     make(map[<keyの型>]<valueの型>)
     */
     m := make(map[string]int)
