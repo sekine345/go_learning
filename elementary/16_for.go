@@ -37,4 +37,10 @@ func main() {
     for i := 0; i < len(a); i++ {
         fmt.Println(a[i])
     }
+
+    fmt.Println("-----")
+    for i := 1; i < 10; i++ {
+        fmt.Println(i) // 1, 3, 5, 9
+        i++
+    }
 }

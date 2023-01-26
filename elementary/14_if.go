@@ -36,4 +36,10 @@ func main() {
         fmt.Println("OK!")
     }
     // fmt.Println(ok)  // undefined: ok
+
+    // 別例
+    x, y := 2, 3
+    if n := x*y; n == 6 { // if の中でのみnを使う
+        fmt.Println(n)
+    }
 }
